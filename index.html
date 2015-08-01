@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h1>Simple Photo Gallery</h1>
+
+<div id="container">
+	<div>
+		<img src="img/flower.jpg" height="546px" width="819px" id="main-image">
+	</div>
+
+	<div id="photo-scroll">
+		<img src="img/flower.jpg" class="small-img" onclick="changeImgFlower();">
+		<img src="img/horse.jpg" class="small-img" onclick="changeImgHorse();">
+		<img src="img/jelly.jpg" class="small-img" onclick="changeImgJelly();">
+		<img src="img/pray.jpg" class="small-img" onclick="changeImgPray();">
+		<img src="img/statue.jpg" class="small-img" onclick="changeImgStatue();">
+	</div>
+</div>
+
+<!-- 2048x1365 -->
+
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

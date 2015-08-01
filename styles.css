@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	padding: 50px;
+}
+
+#container {
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-image {
+	float: left;
+}
+
+#photo-scroll {
+	float: right;
+	height: 546px;
+	width: 204px;
+	overflow: scroll;
+}
+
+.small-img {
+	width: 204px;
+	height: 136px;
+}
